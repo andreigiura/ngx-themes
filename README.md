@@ -53,12 +53,12 @@ app.module.ts
 	    }
     };
 
-## Aply themes in components
+## Apply themes in components
 
 In order to use the themes in templates, apply "ngx-theme" directive on you html tags.
 e.g. : 
 
-    <button  my-theme> </button>
+    <button  ngx-theme> </button>
 In your css/less/scss file, style the button using css variables defined in your themes.
 e.g.:
 
