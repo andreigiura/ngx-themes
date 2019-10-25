@@ -7,7 +7,7 @@ import { DOCUMENT } from '@angular/common';
 
 @Directive({
   // tslint:disable-next-line: directive-selector
-  selector: '[my-theme]'
+  selector: '[ngx-theme]'
 })
 export class ThemeDirective implements OnInit, OnDestroy {
 
